@@ -28,6 +28,7 @@ public class Vista2 extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+	//agregando un comentario
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -44,6 +45,7 @@ public class Vista2 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
+	int s;
 	public Vista2() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 533);
